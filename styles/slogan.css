@@ -1,0 +1,37 @@
+#slogan{
+    color: white;
+}
+
+.slogan-container{
+    display: flex;
+    justify-content: center;
+}
+
+.slogan-container .right-slogan{
+
+}
+
+.slogan-container .left-slogan{
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.slogan-container .left-slogan a{
+    text-decoration: none;
+    color: #8ab4f8;
+}
+
+#slogan > div > div.left-slogan > a::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #8ab4f8;
+    transform: scale(0, 1);
+}
+
+#slogan > div > div.left-slogan > a:hover:after{
+    transform: scale(1,1);
+}

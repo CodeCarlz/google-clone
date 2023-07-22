@@ -1,0 +1,11 @@
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 35px;
+}
+
+#logo img{
+    min-height: 10px;
+    height: 92px;
+}
